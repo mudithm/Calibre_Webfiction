@@ -34,9 +34,6 @@
 # There is no code to account for improper usage, you're on your own.
 
 import sys
-sys.path.append('C:/Users/mudit/Anaconda3/lib/site-packages')
-sys.path.append('C:/Users/mudit/Anaconda3/lib')
-sys.path.append('C:/Users/mudit/Anaconda3')
 import feedparser
 import requests
 import xml.etree.ElementTree as etree

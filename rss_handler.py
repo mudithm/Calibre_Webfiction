@@ -6,6 +6,7 @@ import io
 
 def handler():
 	print("Beginning rss handler")
+	#change this to your path
 	url_list = open("E:/mudit/Documents/RSS_Royal_Road/royalroad_urls.txt", "r")
 
 	rssr = importlib.util.spec_from_file_location("rss_royalroad", "E:/mudit/Documents/RSS_Royal_Road/rss_royalroad.py")
